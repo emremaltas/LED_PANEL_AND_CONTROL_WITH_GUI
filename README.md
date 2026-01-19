@@ -1,34 +1,37 @@
 # LED_PANEL_AND_CONTROL_WITH_GUI
 
-Bu projede, Qt arayüzü kullanılarak seçilen bir görsel SD karta kaydedilir. STM32 mikrodenetleyici, bu görseli okuyarak WS2812 Neopixel LED tabanlı bir tabelada görüntüler. Sistem; C, C++ ve OpenCV ile geliştirildi. Görseller OpenCV kullanılarak işlenip LED matrisine uygun hale getirilir.
+In this project, a selected image is saved to an SD card using a Qt interface. The STM32 microcontroller reads this image and displays it on a WS2812 Neopixel LED-based panel. The system was developed using **C, C++, and OpenCV**. Images are processed with OpenCV to fit the LED matrix.  
 
-🔧 Kullanılan Teknolojiler: <br>
-• STM32F4 Serisi Mikrodenetleyici <br>
-• Qt Framework (Arayüz Geliştirme) <br>
-• OpenCV (Görsel İşleme) <br>
-• WS2812 Neopixel LED’ler <br>
-• SD Kart üzerinden veri okuma <br>
+---
 
-💡 Proje Özellikleri:<br>
-• Qt arayüzü ile görsel seçimi, ön izleme, geçiş zamanlama ayarlaması ve SD karta yazma <br>
-• STM32’nin SD karttan görsel verisini okuyarak LED'lere iletmesi <br>
-• Neopixel LED’lerde renkli görselin gösterimi <br>
-• C/C++ ile gömülü sistem uygulaması <br>
+### 🔧 Technologies Used
+- **STM32F4 Series Microcontroller**  
+- **Qt Framework** (GUI Development)  
+- **OpenCV** (Image Processing)  
+- **WS2812 Neopixel LEDs**  
+- **SD Card Data Reading**  
 
+---
 
-Detaylı Video: [Bu videoyu YouTube'da izle](https://www.youtube.com/watch?v=Tyh2Zs49hcY&t=8s)
+### 💡 Project Features
+- Image selection, preview, transition timing adjustment, and writing to SD card via Qt GUI  
+- STM32 reads the image data from the SD card and sends it to the LEDs  
+- Display of colorful images on Neopixel LEDs  
+- Embedded system application developed in C/C++  
 
-![](https://github.com/emremaltas/LED_PANEL_AND_CONTROL_WITH_GUI/blob/master/gui.png)
+---
 
+### 📹 Project Video
+[Watch this video on YouTube](https://www.youtube.com/watch?v=Tyh2Zs49hcY&t=8s)
 
-![](https://github.com/emremaltas/LED_PANEL_AND_CONTROL_WITH_GUI/blob/master/b638173f-520b-4bf1-98fb-e3b4e7b6530d.jpg)
+---
 
+### 🖼 Screenshots
 
-![](https://github.com/emremaltas/LED_PANEL_AND_CONTROL_WITH_GUI/blob/master/heart.png)
+![GUI Interface](https://github.com/emremaltas/LED_PANEL_AND_CONTROL_WITH_GUI/blob/master/gui.png)  
 
+![LED Panel Example 1](https://github.com/emremaltas/LED_PANEL_AND_CONTROL_WITH_GUI/blob/master/b638173f-520b-4bf1-98fb-e3b4e7b6530d.jpg)  
 
-![](https://github.com/emremaltas/LED_PANEL_AND_CONTROL_WITH_GUI/blob/master/smilepng.png)
+![LED Panel Example 2](https://github.com/emremaltas/LED_PANEL_AND_CONTROL_WITH_GUI/blob/master/heart.png)  
 
-
-
-
+![LED Panel Example 3](https://github.com/emremaltas/LED_PANEL_AND_CONTROL_WITH_GUI/blob/master/smilepng.png)
